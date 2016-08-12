@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iXfinity" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vl7-3s-ykh">
+                                <rect key="frame" x="20" y="93" width="280" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Xfinity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xai-e3-pnL">
+                                <rect key="frame" x="116" y="20" width="88" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="88" id="IAO-la-kRJ"/>
+                                    <constraint firstAttribute="height" constant="27" id="fWt-yE-4jy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keep me signed in." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJn-CJ-oen">
+                                <rect key="frame" x="77" y="138" width="106" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="106" id="hcG-0c-hwX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yet-Ee-DgU">
+                                <rect key="frame" x="20" y="170" width="131" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="131" id="39V-Fo-qlc"/>
+                                    <constraint firstAttribute="height" constant="20" id="MTs-mK-gW7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <state key="normal" title="Forgot your username?">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y7y-VW-OgC">
+                                <rect key="frame" x="20" y="198" width="138" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="19" id="XLm-3n-FBS"/>
+                                    <constraint firstAttribute="width" constant="138" id="XcU-jM-PiT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Forgot your password?">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dLk-Rr-Qvu">
+                                <rect key="frame" x="20" y="131" width="51" height="31"/>
+                            </switch>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email or username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ahl-vZ-Od8">
+                                <rect key="frame" x="20" y="55" width="280" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zx-8G-2IE">
+                                <rect key="frame" x="121" y="329" width="68" height="31"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="68" id="ISZ-Sy-RyC"/>
+                                    <constraint firstAttribute="height" constant="31" id="w8K-Mw-bjS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Sign In">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fek-fh-Xow"/>
+                                    <segue destination="dCt-5N-Ygd" kind="show" id="FEx-gg-d7N"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ahl-vZ-Od8" firstAttribute="trailing" secondItem="Vl7-3s-ykh" secondAttribute="trailing" id="2gU-sE-xhM"/>
+                            <constraint firstItem="dLk-Rr-Qvu" firstAttribute="centerY" secondItem="wJn-CJ-oen" secondAttribute="centerY" id="BMi-0z-LbT"/>
+                            <constraint firstItem="Ahl-vZ-Od8" firstAttribute="leading" secondItem="Vl7-3s-ykh" secondAttribute="leading" id="COG-GI-64F"/>
+                            <constraint firstItem="yet-Ee-DgU" firstAttribute="leading" secondItem="y7y-VW-OgC" secondAttribute="leading" id="Es7-LK-OHC"/>
+                            <constraint firstItem="Xai-e3-pnL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Ffe-Ep-4Sg"/>
+                            <constraint firstItem="Xai-e3-pnL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gb2-jq-nwb"/>
+                            <constraint firstItem="wJn-CJ-oen" firstAttribute="top" secondItem="Vl7-3s-ykh" secondAttribute="bottom" constant="15" id="H4O-Va-BC6"/>
+                            <constraint firstItem="8zx-8G-2IE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="121" id="Olb-If-End"/>
+                            <constraint firstItem="yet-Ee-DgU" firstAttribute="top" secondItem="dLk-Rr-Qvu" secondAttribute="bottom" constant="8" symbolic="YES" id="OsO-1M-ZnT"/>
+                            <constraint firstItem="Xai-e3-pnL" firstAttribute="centerX" secondItem="Ahl-vZ-Od8" secondAttribute="centerX" id="Ovd-Vk-xIa"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8zx-8G-2IE" secondAttribute="bottom" constant="120" id="R9B-Jg-x1f"/>
+                            <constraint firstItem="dLk-Rr-Qvu" firstAttribute="leading" secondItem="yet-Ee-DgU" secondAttribute="leading" id="Tsr-i6-tOG"/>
+                            <constraint firstItem="Vl7-3s-ykh" firstAttribute="top" secondItem="Ahl-vZ-Od8" secondAttribute="bottom" constant="8" symbolic="YES" id="WEI-dh-Xko"/>
+                            <constraint firstItem="dLk-Rr-Qvu" firstAttribute="top" secondItem="Vl7-3s-ykh" secondAttribute="bottom" constant="8" symbolic="YES" id="b0y-Yt-Xjq"/>
+                            <constraint firstItem="Ahl-vZ-Od8" firstAttribute="top" secondItem="Xai-e3-pnL" secondAttribute="bottom" constant="8" symbolic="YES" id="cpW-Mt-Fj5"/>
+                            <constraint firstItem="y7y-VW-OgC" firstAttribute="top" secondItem="yet-Ee-DgU" secondAttribute="bottom" constant="8" symbolic="YES" id="fZA-5b-0I1"/>
+                            <constraint firstItem="wJn-CJ-oen" firstAttribute="leading" secondItem="dLk-Rr-Qvu" secondAttribute="trailing" constant="8" symbolic="YES" id="sFi-6x-xQ1"/>
+                            <constraint firstItem="Vl7-3s-ykh" firstAttribute="leading" secondItem="dLk-Rr-Qvu" secondAttribute="leading" id="wdM-Th-ueQ"/>
+                            <constraint firstItem="Ahl-vZ-Od8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="wnK-Qf-zge"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="btnSingIn" destination="8zx-8G-2IE" id="rim-s0-Lh0"/>
+                        <outlet property="emailText" destination="Ahl-vZ-Od8" id="vLR-O4-Btm"/>
+                        <outlet property="passwordText" destination="Vl7-3s-ykh" id="ZZy-U0-vTH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-157" y="-286"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="abu-gQ-kLy">
+            <objects>
+                <viewController id="8EA-oi-lqh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CfM-HR-9Od"/>
+                        <viewControllerLayoutGuide type="bottom" id="PuH-Tf-B7Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Frs-BI-dWw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GDV-Wg-s6L">
+                                <rect key="frame" x="9" y="20" width="75" height="65"/>
+                                <state key="normal" image="HOME.png"/>
+                                <connections>
+                                    <segue destination="dCt-5N-Ygd" kind="show" id="NPB-T6-XNj"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GO TO HOME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yPE-SY-Oux">
+                                <rect key="frame" x="9" y="83" width="87" height="31"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                <color key="textColor" red="0.1018307668" green="0.34815775500000001" blue="0.98976362179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xfinity" translatesAutoresizingMaskIntoConstraints="NO" id="BSb-om-gnx">
+                                <rect key="frame" x="103" y="28" width="97" height="39"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zUr-3B-ckS">
+                                <rect key="frame" x="0.0" y="248" width="320" height="23"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="0.60040409482758617" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="WIFI RADIO SETTINGS"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9HN-zk-Fyo">
+                                <rect key="frame" x="0.0" y="279" width="320" height="21"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="0.60040409480000001" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="LAN WAN SETTINGS"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jvb-R3-PxW">
+                                <rect key="frame" x="0.0" y="308" width="320" height="22"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="0.60040409480000001" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="DNS SERVER"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wbc-MV-nwh">
+                                <rect key="frame" x="0.0" y="218" width="320" height="22"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="0.60040409480000001" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="WIFI SETTINGS"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAx-0x-Aaw">
+                                <rect key="frame" x="0.0" y="338" width="320" height="23"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="0.60040409480000001" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="HARDWARE INFO"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nkq-cM-Yag">
+                                <rect key="frame" x="77" y="426" width="41" height="37"/>
+                                <state key="normal" image="back.jpeg"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ya6-yU-lAp">
+                                <rect key="frame" x="189" y="426" width="42" height="37"/>
+                                <state key="normal" image="RIGHT.jpeg"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Advanced" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jzV-dz-2Oz">
+                                <rect key="frame" x="9" y="149" width="129" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JhJ-CQ-rZK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="64" y="374"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TUD-UJ-iEk">
+            <objects>
+                <viewController id="XRB-dI-hSj" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Eyh-xh-1wt"/>
+                        <viewControllerLayoutGuide type="bottom" id="upg-Sy-o6F"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="D20-RC-sTk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eOu-PQ-Shp">
+                                <rect key="frame" x="7" y="20" width="91" height="82"/>
+                                <state key="normal" image="HOME.png"/>
+                                <connections>
+                                    <segue destination="dCt-5N-Ygd" kind="show" id="k5P-bz-TWY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GBZ-4s-etr">
+                                <rect key="frame" x="242" y="193" width="58" height="23"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <state key="normal" title="Edit">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GO TO HOME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcf-kd-7sL">
+                                <rect key="frame" x="14" y="101" width="91" height="26"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                <color key="textColor" red="0.1018307668" green="0.34815775500000001" blue="0.98976362179999999" alpha="0.71751077586206902" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Operational Data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8SP-XE-G2u">
+                                <rect key="frame" x="7" y="144" width="151" height="35"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Harvester Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="95C-1F-rJL">
+                                <rect key="frame" x="7" y="193" width="138" height="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.1018307668" green="0.34815775500000001" blue="0.98976362179999999" alpha="0.89665948275862073" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xfinity.png" translatesAutoresizingMaskIntoConstraints="NO" id="lNA-lO-m2y">
+                                <rect key="frame" x="106" y="28" width="141" height="43"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OBl-jA-t7C">
+                                <rect key="frame" x="60" y="417" width="45" height="43"/>
+                                <state key="normal" image="back.jpeg"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W8f-qt-48Q">
+                                <rect key="frame" x="192" y="417" width="47" height="43"/>
+                                <state key="normal" image="RIGHT.jpeg"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bSd-Ut-P29" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="552" y="374"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="p4t-bU-w97">
+            <objects>
+                <viewController id="dCt-5N-Ygd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gcD-Ki-ETX"/>
+                        <viewControllerLayoutGuide type="bottom" id="au2-Ie-biI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="i60-oS-aiY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Xfinity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9n-he-mKQ">
+                                <rect key="frame" x="42" y="28" width="236" height="48"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="26"/>
+                                <color key="textColor" red="0.93854166666666672" green="0.0" blue="0.026352440458759365" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uNc-ck-MRw">
+                                <rect key="frame" x="42" y="116" width="90" height="85"/>
+                                <state key="normal" image="wifi.jpeg"/>
+                                <connections>
+                                    <segue destination="I7H-5L-9Ji" kind="show" id="bns-oV-W7t"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rkm-Zb-1NH">
+                                <rect key="frame" x="198" y="120" width="90" height="78"/>
+                                <state key="normal" image="Devices.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0vK-5t-k5D">
+                                <rect key="frame" x="42" y="271" width="90" height="75"/>
+                                <state key="normal" image="Advanced.jpeg"/>
+                                <connections>
+                                    <segue destination="8EA-oi-lqh" kind="show" id="33b-Od-2VW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AvO-bC-fh3">
+                                <rect key="frame" x="198" y="268" width="90" height="82"/>
+                                <state key="normal" image="operation.jpeg"/>
+                                <connections>
+                                    <segue destination="XRB-dI-hSj" kind="show" id="TfB-35-hYo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJ0-JQ-XUk">
+                                <rect key="frame" x="82" y="430" width="156" height="30"/>
+                                <color key="backgroundColor" white="0.79978502516778527" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="SIGNOUT"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Kkf-J2-agW"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WIFI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAM-jk-fRs">
+                                <rect key="frame" x="60" y="209" width="55" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.023213325230000002" green="0.13359457299999999" blue="0.90266426280000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DEVICES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcC-nB-NFM">
+                                <rect key="frame" x="216" y="209" width="62" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.023213325230000002" green="0.13359457299999999" blue="0.90266426280000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="OPERATIONAL DATA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fRh-5d-BQZ">
+                                <rect key="frame" x="179" y="353" width="137" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.023213325230000002" green="0.13359457299999999" blue="0.90266426280000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ADVANCED" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b9e-yp-IXz">
+                                <rect key="frame" x="48" y="354" width="79" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.023213325230000002" green="0.13359457299999999" blue="0.90266426280000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="msL-Ss-EKr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="298" y="-286"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DQS-vW-lx7">
+            <objects>
+                <viewController id="I7H-5L-9Ji" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Kuf-Qw-X6H"/>
+                        <viewControllerLayoutGuide type="bottom" id="drq-rj-x4B"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cDW-vW-zs5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0TM-mJ-NI1">
+                                <rect key="frame" x="10" y="20" width="69" height="61"/>
+                                <state key="normal" image="HOME.png"/>
+                                <connections>
+                                    <segue destination="dCt-5N-Ygd" kind="show" id="ofi-QP-7Wn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GO TO HOME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jFd-1S-b5S">
+                                <rect key="frame" x="10" y="77" width="82" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="11"/>
+                                <color key="textColor" red="0.1018307668" green="0.34815775500000001" blue="0.98976362179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xfinity.png" translatesAutoresizingMaskIntoConstraints="NO" id="y2f-Jl-BI2">
+                                <rect key="frame" x="97" y="30" width="126" height="41"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your WiFi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B1D-xz-JeL">
+                                <rect key="frame" x="10" y="112" width="90" height="27"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Update your WiFi name and password anytime" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EC4-8h-OOs">
+                                <rect key="frame" x="10" y="141" width="286" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WiFi Options" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5eV-UR-LDS">
+                                <rect key="frame" x="10" y="165" width="90" height="27"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <color key="textColor" red="0.1018307668" green="0.34815775500000001" blue="0.98976362179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLZ-eV-na8">
+                                <rect key="frame" x="64" y="375" width="178" height="29"/>
+                                <color key="backgroundColor" red="0.728145032051282" green="0.728145032051282" blue="0.728145032051282" alpha="0.66928879310344824" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <state key="normal" title="Gateway Restart"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Having a connection issue? Restarting your gateway may resolve your problem." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6xU-Le-FfY">
+                                <rect key="frame" x="10" y="336" width="302" height="31"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="7"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="0.78542564655172409" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Show Passwords" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ujC-Yr-XDW">
+                                <rect key="frame" x="10" y="295" width="159" height="40"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <color key="textColor" red="0.1018307668" green="0.34815775500000001" blue="0.98976362179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bck-Jm-Eo0">
+                                <rect key="frame" x="251" y="295" width="51" height="31"/>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EN9-yh-on9">
+                                <rect key="frame" x="241" y="165" width="64" height="27"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <state key="normal" title="Edit">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHK-EU-SPn">
+                                <rect key="frame" x="203" y="429" width="49" height="43"/>
+                                <state key="normal" image="RIGHT.jpeg"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Efh-pV-hLq">
+                                <rect key="frame" x="49" y="427" width="51" height="45"/>
+                                <state key="normal" image="back.jpeg"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l7a-8A-6aj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="729" y="-286"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Advanced.jpeg" width="102" height="102"/>
+        <image name="Devices.png" width="319" height="158"/>
+        <image name="HOME.png" width="288" height="286"/>
+        <image name="RIGHT.jpeg" width="108" height="108"/>
+        <image name="back.jpeg" width="108" height="108"/>
+        <image name="operation.jpeg" width="225" height="225"/>
+        <image name="wifi.jpeg" width="192" height="192"/>
+        <image name="xfinity" width="482" height="157"/>
+        <image name="xfinity.png" width="482" height="157"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="FEx-gg-d7N"/>
+    </inferredMetricsTieBreakers>
+</document>
