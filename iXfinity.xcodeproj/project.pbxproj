@@ -12,6 +12,7 @@
 		01624D8B1D5B017300D4B054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01624D891D5B017300D4B054 /* Main.storyboard */; };
 		01624D8D1D5B017300D4B054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01624D8C1D5B017300D4B054 /* Assets.xcassets */; };
 		01624D901D5B017300D4B054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01624D8E1D5B017300D4B054 /* LaunchScreen.storyboard */; };
+		7151115B1D6F468400C0333D /* back-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7151115A1D6F468400C0333D /* back-button.png */; };
 		844B1EDD1D5DA788005B4414 /* Devices.png in Resources */ = {isa = PBXBuildFile; fileRef = 844B1ED61D5DA788005B4414 /* Devices.png */; };
 		844B1EDE1D5DA788005B4414 /* Advanced.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 844B1ED71D5DA788005B4414 /* Advanced.jpeg */; };
 		844B1EDF1D5DA788005B4414 /* wifi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 844B1ED81D5DA788005B4414 /* wifi.jpeg */; };
@@ -29,6 +30,7 @@
 		01624D8C1D5B017300D4B054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01624D8F1D5B017300D4B054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01624D911D5B017300D4B054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7151115A1D6F468400C0333D /* back-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-button.png"; sourceTree = "<group>"; };
 		844B1ED61D5DA788005B4414 /* Devices.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Devices.png; path = ../../Devices.png; sourceTree = "<group>"; };
 		844B1ED71D5DA788005B4414 /* Advanced.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Advanced.jpeg; path = ../../Advanced.jpeg; sourceTree = "<group>"; };
 		844B1ED81D5DA788005B4414 /* wifi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wifi.jpeg; path = ../../wifi.jpeg; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 		01624D841D5B017300D4B054 /* iXfinity */ = {
 			isa = PBXGroup;
 			children = (
+				7151115A1D6F468400C0333D /* back-button.png */,
 				01624D851D5B017300D4B054 /* AppDelegate.swift */,
 				844B1ED61D5DA788005B4414 /* Devices.png */,
 				844B1ED71D5DA788005B4414 /* Advanced.jpeg */,
@@ -143,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7151115B1D6F468400C0333D /* back-button.png in Resources */,
 				844B1EE21D5DA788005B4414 /* HOME.png in Resources */,
 				01624D901D5B017300D4B054 /* LaunchScreen.storyboard in Resources */,
 				844B1EDE1D5DA788005B4414 /* Advanced.jpeg in Resources */,

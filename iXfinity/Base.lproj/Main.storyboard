@@ -125,7 +125,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="69" y="-582"/>
+            <point key="canvasLocation" x="-276" y="-622"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="abu-gQ-kLy">
@@ -201,13 +201,9 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aIo-Ad-lXb">
-                                <rect key="frame" x="68" y="420" width="45" height="43"/>
-                                <state key="normal" title="back" image="back.jpeg"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zDy-C6-XXN">
-                                <rect key="frame" x="214" y="420" width="47" height="43"/>
-                                <state key="normal" title="front" image="RIGHT.jpeg"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4oU-z7-aPo">
+                                <rect key="frame" x="128" y="417" width="65" height="43"/>
+                                <state key="normal" title="back" image="back-button.png"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
@@ -254,14 +250,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xfinity" translatesAutoresizingMaskIntoConstraints="NO" id="lNA-lO-m2y">
                                 <rect key="frame" x="106" y="28" width="141" height="43"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OBl-jA-t7C">
-                                <rect key="frame" x="60" y="417" width="45" height="43"/>
-                                <state key="normal" title="back" image="back.jpeg"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W8f-qt-48Q">
-                                <rect key="frame" x="192" y="417" width="47" height="43"/>
-                                <state key="normal" title="front" image="RIGHT.jpeg"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HOME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ib7-T0-vrl">
                                 <rect key="frame" x="34" y="66" width="87" height="31"/>
                                 <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="8"/>
@@ -274,6 +262,10 @@
                                 <color key="textColor" red="0.1018307668" green="0.34815775500000001" blue="0.98976362179999999" alpha="0.89665948275862073" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9qJ-Rm-uVp">
+                                <rect key="frame" x="128" y="417" width="65" height="43"/>
+                                <state key="normal" title="back" image="back-button.png"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -368,7 +360,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="msL-Ss-EKr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="404" y="-589"/>
+            <point key="canvasLocation" x="-24" y="-627"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DQS-vW-lx7">
@@ -432,14 +424,6 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHK-EU-SPn" userLabel="front">
-                                <rect key="frame" x="216" y="428" width="49" height="43"/>
-                                <state key="normal" image="RIGHT.jpeg"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Efh-pV-hLq">
-                                <rect key="frame" x="59" y="426" width="51" height="45"/>
-                                <state key="normal" title="back" image="back.jpeg"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WiFi Options" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5eV-UR-LDS">
                                 <rect key="frame" x="10" y="165" width="125" height="27"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
@@ -455,6 +439,10 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bck-Jm-Eo0">
                                 <rect key="frame" x="256" y="295" width="51" height="31"/>
                             </switch>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYK-Io-4EQ">
+                                <rect key="frame" x="121" y="422" width="65" height="43"/>
+                                <state key="normal" title="back" image="back-button.png"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -462,20 +450,19 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l7a-8A-6aj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="734" y="-589"/>
+            <point key="canvasLocation" x="452" y="-616"/>
         </scene>
     </scenes>
     <resources>
         <image name="Advanced.jpeg" width="102" height="102"/>
         <image name="Devices.png" width="319" height="158"/>
         <image name="HOME.png" width="288" height="286"/>
-        <image name="RIGHT.jpeg" width="108" height="108"/>
-        <image name="back.jpeg" width="108" height="108"/>
+        <image name="back-button.png" width="600" height="296"/>
         <image name="operation.jpeg" width="225" height="225"/>
         <image name="wifi.jpeg" width="192" height="192"/>
         <image name="xfinity" width="482" height="157"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="k5P-bz-TWY"/>
+        <segue reference="ofi-QP-7Wn"/>
     </inferredMetricsTieBreakers>
 </document>

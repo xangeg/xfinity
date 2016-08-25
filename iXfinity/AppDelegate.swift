@@ -1,10 +1,5 @@
-//
-//  AppDelegate.swift
-//  iXfinity
-//
-//  Created by Ishan Mahajan on 10/08/16.
-//  Copyright © 2016 Ishan Mahajan. All rights reserved.
-//
+
+//author @ saurabh Tiwari
 
 import UIKit
 
