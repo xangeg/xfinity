@@ -24,12 +24,30 @@ class ViewController: UIViewController {
         let postEndpoint: String = "https://96.119.82.129:443/SITestAgent/lg"
         let url = NSURL(string: postEndpoint)!
         let session = NSURLSession.sharedSession()
-        let postParams : [String: AnyObject] = ["Session": session,"user":NSString(string: emailText.text!),"password":NSString(string:passwordText.text!)]
+        let postSession :[String: AnyObject] = [
+            "username": [:],
+            "token":  [:],
+            "accountURL": [:],
+            "configHalData": [:],
+            "networkConfig": [:],
+            "networkConfigAvailableInSIORC": false,
+            "nonCloudManagedCmData": [:]
+        ]
+        let postParams : [String: [String: AnyObject ]] = [
+            "session":[
+                "Session": postSession,
+                "LOGIN_URL" : "https://96.119.82.129:443/SITestAgent/lg",
+                "user" : NSString(string: emailText.text!),
+                "passwd" : NSString(string:passwordText.text!)
+            ]
+        ]
+        
         // Create the request
         let request = NSMutableURLRequest(URL: url)
         request.HTTPMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         request.addValue("Basic d2VicGFfcmVsZWFzZTEuMA==", forHTTPHeaderField: "Authorization")
+        request.addValue("application/hal+json", forHTTPHeaderField: "Accept")
         
         
         do {
@@ -61,7 +79,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btnSignIn(sender: AnyObject) {
-        print ("trial for commit")
+        print ("trial for signIn")
         
     }
     
