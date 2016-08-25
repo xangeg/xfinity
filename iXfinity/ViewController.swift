@@ -78,10 +78,7 @@ class ViewController: UIViewController {
         }).resume()
     }
     
-    @IBAction func btnSignIn(sender: AnyObject) {
-        print ("trial for signIn")
-        
-    }
+    
     
         override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

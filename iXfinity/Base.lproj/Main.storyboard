@@ -83,7 +83,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="btnSignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fek-fh-Xow"/>
+                                    <action selector="signInBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YB3-Ib-cu8"/>
                                     <segue destination="dCt-5N-Ygd" kind="show" id="FEx-gg-d7N"/>
                                 </connections>
                             </button>
@@ -113,7 +113,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
-                        <outlet property="btnSingIn" destination="8zx-8G-2IE" id="rim-s0-Lh0"/>
+                        <outlet property="btnSingIn" destination="8zx-8G-2IE" id="hK7-uE-WmN"/>
                         <outlet property="emailText" destination="Ahl-vZ-Od8" id="vLR-O4-Btm"/>
                         <outlet property="passwordText" destination="Vl7-3s-ykh" id="ZZy-U0-vTH"/>
                     </connections>
